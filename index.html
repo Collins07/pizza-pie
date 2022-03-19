@@ -146,6 +146,27 @@
           </div>
         </div>
       </div>
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+          <h1>Order Now!</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" required>
+      
+          <p id="demo"></p>
+          <div id="total1"><span>Ksh:</span> <p id="demos"></p></div>
+          <br>
+      
+          <label for="number"><b>Number of Pizzas</b></label>
+          <input id="many" type="number" placeholder="number of pizzas" name="number" required>
+      
+          <div class="enter"><button id="enter1" type="button" onclick="myTotal()">Get total</button>
+            <p id="enter">Ksh.</p>
+          </div> 
+          <button onclick="myFunction()" type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
 
 
       
