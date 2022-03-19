@@ -1,5 +1,4 @@
 #fluid1{
-    border: 1px solid red;
     height: 600px;
     background-image: url("./hero3.jpg");
     background-size: cover;
@@ -44,4 +43,37 @@
 #row3{
     height: 350px;
     background-image: linear-gradient(130deg, white 60%, rgb(253, 95, 38) 45%)
+}
+#col3,#col4{
+    margin-left: 12%;
+   text-align: center;
+}
+#time,#online{
+    border-radius: 50%;
+}
+#para2{
+    font-size: 13px;
+    font-weight: bold;
+}
+#para3{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+#change{
+    color: orangered;
+}
+#row4{
+    height: 600px;
+    margin-top: 5%;
+}
+h2{
+    text-align: center;
+    text-decoration: underline orangered;
+}
+h3{
+    text-align: center;
+}
+#para4{
+    text-align: center;
 }
