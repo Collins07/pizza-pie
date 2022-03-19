@@ -24,7 +24,7 @@ function myTotal() {
     document.getElementById("enter").innerHTML = "Ksh" +" " + amount*total;
   
   }
-  
+
 
 
 
@@ -106,6 +106,181 @@ $(document).ready(function() {
   $("#show33").show();
   $("#demo").html("<b>Small Gutten without topping</b>");
   $("#demos").html("<b>900</b>");
+  
+  });
+  
+  });
+
+
+  $(document).ready(function() {
+
+    $("#p4").click(function() {
+        $(".ul4").show();
+        $("#option4").show();
+        $("#option1").hide();
+        $("#option2").hide();
+        $("#option3").hide();
+        $(".ul3").hide();
+        $(".ul5").hide();
+        $(".ul6").hide();
+        $("#img5").hide();
+        $("#img6").show();
+        $("#img7").hide();
+        $("#img8").hide();
+      
+      });
+    $("#list4").click(function() {
+      $("#show4").show();
+      $("#demo").html("<b>Medium Crispy with topping</b>");
+      $("#demos").html("<b>1200</b>");
+      $("#show44").hide();
+      
+    });
+    $("#list44").click(function() {
+      $("#show4").hide();
+      $("#show44").show();
+      $("#demo").html("<b>Medium Crispy without topping</b>");
+      $("#demos").html("<b>1100</b>");
+      
+    });
+  
+    $("#p5").click(function() {
+      $(".ul4").hide();
+      $(".ul5").show();
+      $("#option5").show();
+      $(".ul6").hide();
+      $("#img5").hide();
+      $("#img6").hide();
+      $("#img7").show();
+      $("#img8").hide();
+  
+  
+    });
+  $("#list5").click(function() {
+    $("#show5").show();
+    $("#demo").html("<b>Medium Stuffed with topping</b>");
+    $("#demos").html("<b>1400</b>");
+    $("#show55").hide();
+    
+  });
+  $("#list55").click(function() {
+    $("#show5").hide();
+    $("#show55").show();
+    $("#demo").html("<b>Medium Stuffed without topping</b>");
+    $("#demos").html("<b>1350</b>");
+    
+  });
+  
+  $("#p6").click(function() {
+    $(".ul4").hide();
+    $(".ul5").hide();
+    $(".ul6").show();
+    $("#option6").show();
+    $("#img5").hide();
+    $("#img6").hide();
+    $("#img7").hide();
+    $("#img8").show();
+  
+  });
+  $("#list6").click(function() {
+  $("#show6").show();
+  $("#demo").html("<b>Medium Gutten with topping</b>");
+  $("#demos").html("<b>1600</b>");
+  $("#show66").hide();
+  
+  });
+  $("#list66").click(function() {
+  $("#show6").hide();
+  $("#show66").show();
+  $("#demo").html("<b>Medium Gutten without topping</b>");
+  $("#demos").html("<b>1450</b>");
+  
+  });
+  
+  });
+  
+  
+  $(document).ready(function() {
+  
+    $("#p7").click(function() {
+        $(".ul7").show();
+        $("#option7").show();
+        $("#option4").hide();
+        $("#option5").hide();
+        $("#option6").hide();
+        $(".ul6").hide();
+        $(".ul8").hide();
+        $(".ul9").hide();
+        $("#img9").hide();
+        $("#img10").show();
+        $("#img11").hide();
+        $("#img12").hide();
+      
+      });
+    $("#list7").click(function() {
+      $("#show7").show();
+      $("#demo").html("<b>Large Crispy with topping</b>");
+      $("#demos").html("<b>1850</b>");
+      $("#show77").hide();
+      
+    });
+    $("#list77").click(function() {
+      $("#show7").hide();
+      $("#show77").show();
+      $("#demo").html("<b>Large Crispy without topping</b>");
+      $("#demos").html("<b>1750</b>");
+    });
+  
+    $("#p8").click(function() {
+      $(".ul7").hide();
+      $(".ul8").show();
+      $("#option8").show();
+      $(".ul9").hide();
+      $("#img9").hide();
+      $("#img10").hide();
+      $("#img11").show();
+      $("#img12").hide();
+  
+  
+    });
+  $("#list8").click(function() {
+    $("#show8").show();
+    $("#demo").html("<b>Large Stuffed with topping</b>");
+    $("#demos").html("<b>2000</b>");
+    $("#show88").hide();
+    
+  });
+  $("#list88").click(function() {
+    $("#show8").hide();
+    $("#show88").show();
+    $("#demo").html("<b>Large Stuffed without topping</b>");
+    $("#demos").html("<b>1900</b>");
+    
+  });
+  
+  $("#p9").click(function() {
+    $(".ul7").hide();
+    $(".ul8").hide();
+    $(".ul9").show();
+    $("#option9").show();
+    $("#img9").hide();
+    $("#img10").hide();
+    $("#img11").hide();
+    $("#img12").show();
+  
+  });
+  $("#list9").click(function() {
+  $("#show9").show();
+  $("#demo").html("<b>Large Gutten with topping</b>");
+  $("#demos").html("<b>2500</b>");
+  $("#show99").hide();
+  
+  });
+  $("#list99").click(function() {
+  $("#show9").hide();
+  $("#show99").show();
+  $("#demo").html("<b>Large Gutten without topping</b>");
+  $("#demos").html("<b>2200</b>");
   
   });
   
