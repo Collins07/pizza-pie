@@ -215,3 +215,14 @@ li{
 #img10, #img11, #img12{
     display: none;
 }
+.open-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 180px;
+    margin-left: 25%;
+    margin-top: 20%;
+  }
