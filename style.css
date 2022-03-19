@@ -282,3 +282,34 @@ li{
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+  #team{
+    display: flex;
+    height: 450px;
+    background-image: linear-gradient(35deg,rgb(253, 95, 38) 45%, white 45%);
+    
+}
+#card2{
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+    border: none;
+    height: 320px;
+}
+#ceo{
+    height: 170px;
+}
+#fluid6{
+    height: 350px;
+}
+#row10{
+   
+    height: 300px;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 2%;
+}
+
+#row11{
+    height: 100px;
+    background-color: orangered;
+}
