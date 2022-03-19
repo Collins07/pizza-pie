@@ -324,14 +324,12 @@ li{
         width: 80px;
     }
     #team{
-        margin-top: 220%;
+        margin-top: 230%;
     }
     #fluid7{
         border: 1px solid blue;
     }
-    /* #row11{
-        margin-top: 150%;
-    } */
+    
     #fluid6{
        margin-top: 25%;
     }
@@ -344,4 +342,89 @@ li{
     #ceo{
         height: 70px;
     }
+  }
+
+  @media only screen and (max-width: 570px) and (min-width: 500px)  {
+    #col3,#col4{
+        overflow: auto;
+    }
+    #time,#online{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+    #team{
+        margin-top: 200%;
+    }
+    #fluid7{
+        border: 1px solid blue;
+    }
+    
+    #fluid6{
+       margin-top: 25%;
+    }
+    .card-title{
+        font-size: 3vh;
+    }
+    .card-text{
+        font-size: 2vh;
+    }
+    #ceo{
+        height: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) and (min-width: 570px)  {
+    #col3,#col4{
+        overflow: auto;
+    }
+    #time,#online{
+        border-radius: 50%;
+        height: 130px;
+        width: 130px;
+    }
+    #team{
+        margin-top: 10%;
+    }
+    #fluid7{
+        border: 1px solid blue;
+    }
+    
+    #fluid6{
+       margin-top: 25%;
+    }
+    .card-title{
+        font-size: 3vh;
+    }
+    .card-text{
+        font-size: 2vh;
+    }
+    #ceo{
+        height: 100px;
+    }
+    #card1{
+        width: 200px;
+        height: 450px;
+        
+    }
+    #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
+    
+        width: 50px;
+        background-color: orangered;
+        color: white;
+        font-weight: bolder;
+        border-radius: 5px; 
+        font-size: 10px;
+        border: 1px solid grey;
+    }
+    .open-button {
+        background-color: green;
+        color: white;
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        width: 120px;
+        margin-top: 20%;
+      }
   }
