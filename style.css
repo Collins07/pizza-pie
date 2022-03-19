@@ -313,3 +313,35 @@ li{
     height: 100px;
     background-color: orangered;
 }
+
+@media only screen and (max-width: 500px) {
+    #col3,#col4{
+        overflow: auto;
+    }
+    #time,#online{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+    #team{
+        margin-top: 220%;
+    }
+    #fluid7{
+        border: 1px solid blue;
+    }
+    /* #row11{
+        margin-top: 150%;
+    } */
+    #fluid6{
+       margin-top: 25%;
+    }
+    .card-title{
+        font-size: 3vh;
+    }
+    .card-text{
+        font-size: 2vh;
+    }
+    #ceo{
+        height: 70px;
+    }
+  }
