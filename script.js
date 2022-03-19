@@ -8,11 +8,23 @@ function openForm() {
   }
 
 
+
   function myFunction() {
     let many = document.getElementById("many").value;
   alert("Successfully ordered"+"," + " " + many+" " + " pizzas")
 
 }
+
+
+function myTotal() {
+    let amount = document.getElementById("demos").textContent;
+    let total = document.getElementById("many").value;
+    
+  
+    document.getElementById("enter").innerHTML = "Ksh" +" " + amount*total;
+  
+  }
+  
 
 
 
