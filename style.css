@@ -77,3 +77,141 @@ h3{
 #para4{
     text-align: center;
 }
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
+    
+    width: 70px;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px; 
+    padding: 2%;
+    border: 1px solid grey;
+    margin-left: 10%;
+}
+#option1, #option2, #option3{
+    font-size: 13px;
+    font-weight: bold;
+    display: none;
+}
+#option4, #option5, #option6{
+    font-size: 13px;
+    font-weight: bold;
+    display: none;
+}
+#option7, #option8, #option9{
+    font-size: 13px;
+    font-weight: bold;
+    display: none;
+}
+.main,.main1, .main2{
+    margin-top: 2%;
+    display: inline-flex;
+}
+option{
+    height: 30PX;
+    width: 70PX;
+}
+#total1{
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+.enter{
+    display: flex;
+}
+#enter1{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(150, 150, 240);
+}
+
+
+
+#card1{
+    width: 270px;
+    height: 450px;
+    margin-left: 25%;
+    
+}
+
+li{
+    font-size: 10px;
+}
+.ul1, .ul2, .ul3{
+    display: none;
+    list-style-type:disc;
+}
+.ul4, .ul5, .ul6{
+    display: none;
+    list-style-type:disc;
+}
+.ul7, .ul8, .ul9{
+    display: none;
+    list-style-type:disc;
+}
+.crispy{
+    width: 120px;
+    height: 120px;
+}
+.stuffed{
+    width: 120px;
+    height: 120px;
+}
+.gutten{
+    width: 120px;
+    height: 120px;
+}
+#show1, #show11{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show2, #show22{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show3, #show33{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show4, #show44{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show5, #show55{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show6, #show66{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show7, #show77{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show8, #show88{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#show9, #show99{
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+#img1, #img2, #img3{
+    display: none;
+}
+#img6, #img7, #img8{
+    display: none;
+}
+#img10, #img11, #img12{
+    display: none;
+}
