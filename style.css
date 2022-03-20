@@ -129,7 +129,7 @@ option{
 
 #card1{
     width: 270px;
-    height: 450px;
+    height: 470px;
     margin-left: 25%;
     
 }
@@ -162,7 +162,7 @@ li{
     height: 120px;
 }
 #show1, #show11{
-    display: none;
+     display: none;
     font-size: 10px;
     font-weight: bold;
 }
@@ -215,6 +215,11 @@ li{
 #img10, #img11, #img12{
     display: none;
 }
+#add,#add2,#add3,#add4,#add5,#add6{
+    border-radius: 4PX;
+    font-weight: bolder;
+    background-color: darkolivegreen;
+}
 .open-button {
     background-color: green;
     color: white;
@@ -224,7 +229,7 @@ li{
     opacity: 0.8;
     width: 180px;
     margin-left: 25%;
-    margin-top: 20%;
+    margin-top: 25%;
   }
   /* The popup form - hidden by default */
   .form-popup {

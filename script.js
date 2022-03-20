@@ -43,15 +43,13 @@ $(document).ready(function() {
       });
     $("#list1").click(function() {
       $("#show1").show();
-      $("#demo").html("<b>Small Crispy with topping</b>");
-      $("#demos").html("<b>500</b>");
       $("#show11").hide();
       
     });
     $("#list11").click(function() {
       $("#show1").hide();
-      $("#demo").html("<b>Small Crispy without topping</b>");
-      $("#demos").html("<b>700</b>");
+    //   $("#demo").html("<b>Small Crispy without topping</b>");
+    //   $("#demos").html("<b>700</b>");
       $("#show11").show();
       
     });
@@ -70,15 +68,11 @@ $(document).ready(function() {
     });
   $("#list2").click(function() {
     $("#show2").show();
-    $("#demo").html("<b>Small Stuffed with topping</b>");
-    $("#demos").html("<b>850</b>");
     $("#show22").hide();
     
   });
   $("#list22").click(function() {
     $("#show2").hide();
-    $("#demo").html("<b>Small Stuffed without topping</b>");
-    $("#demos").html("<b>750</b>");
     $("#show22").show();
     
   });
@@ -96,16 +90,12 @@ $(document).ready(function() {
   });
   $("#list3").click(function() {
   $("#show3").show();
-  $("#demo").html("<b>Small Gutten with topping</b>");
-  $("#demos").html("<b>1050</b>");
   $("#show33").hide();
   
   });
   $("#list33").click(function() {
   $("#show3").hide();
   $("#show33").show();
-  $("#demo").html("<b>Small Gutten without topping</b>");
-  $("#demos").html("<b>900</b>");
   
   });
   
@@ -285,3 +275,31 @@ $(document).ready(function() {
   });
   
   });
+
+  $(document).ready(function() {
+  
+    $("#add").click(function() {
+      $("#demo").html("<b>Small Crispy with topping</b>");
+      $("#demos").html("<b>700</b>");
+    })
+    $("#add2").click(function() {
+        $("#demo").html("<b>Small Crispy without topping</b>");
+        $("#demos").html("<b>500</b>");
+    })
+    $("#add3").click(function() {
+        $("#demo").html("<b>Small Stuffed with topping</b>");
+        $("#demos").html("<b>850</b>");
+    })
+    $("#add4").click(function() {
+        $("#demo").html("<b>Small Stuffed without topping</b>");
+        $("#demos").html("<b>750</b>");
+    })
+    $("#add5").click(function() {
+        $("#demo").html("<b>Small Gutten with topping</b>");
+        $("#demos").html("<b>1050</b>");
+    })
+    $("#add6").click(function() {
+        $("#demo").html("<b>Small Gutten without topping</b>");
+        $("#demos").html("<b>900</b>");
+    })
+ })
