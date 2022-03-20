@@ -13,6 +13,8 @@
 ## Description
 <p>Pizaa-Pie is your best choice for customised pizza favorite. our clients can contact us through our online<br>platform and they'll have their pizza delivered at thier place of choice in no time<br>All you have to do is just search "Pizza-Pie"on your browser and on our website you are now good to see our best choice of varieties</p>
 
+<p> Click on this link https://www.figma.com/file/H6aXVIBfbAdFyQ2vTGEAOH/Pizza-Pie?node-id=0%3A1 <br>to see our project design by Figma
+
 <p>From our Pizza varieties we offer Crispy, Stuffed and Gutten-free<br>
 that come in all sizes ranging from small to large. As you navigate through our services you can see <br>
 the pizza varieties on display.</p>
