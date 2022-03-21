@@ -11,7 +11,9 @@ function openForm() {
 
   function myFunction() {
     let many = document.getElementById("many").value;
-  alert("Successfully ordered"+"," + " " + many+" " + " pizzas")
+    let total10 = document.getElementById("enter").textContent;
+    let pizza10 = document.getElementById("demo").textContent;
+  alert("Successfully ordered"+ " "+  many + " " + pizza10 +"," +" " + " pizzas" + " " + "for" + " " + total10 + " "+ ".Thank you for shopping with Pizza Pie")
 
 }
 

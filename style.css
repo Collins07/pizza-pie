@@ -230,6 +230,9 @@ li{
     font-weight: bolder;
     background-color: darkolivegreen;
 }
+#many{
+    width: 150px;
+}
 .open-button {
     background-color: green;
     color: white;
