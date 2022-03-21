@@ -111,7 +111,7 @@ option{
     height: 30PX;
     width: 70PX;
 }
-#total1#total2{
+#total1{
     display: flex;
     width: 200px;
     height: 30px;

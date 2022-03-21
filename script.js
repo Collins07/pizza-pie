@@ -19,9 +19,37 @@ function openForm() {
 function myTotal() {
     let amount = document.getElementById("demos").textContent;
     let total = document.getElementById("many").value;
+    let pep = document.getElementById("pep").checked;
+    let bacon = document.getElementById("bacon").checked;
+    let olives = document.getElementById("olives").checked;
+
+    if(pep == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total + 100*total);
+    }
+    else if (bacon == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +200*total);
+    }
+    else if (olives == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +300*total);
+    }
+    else if (olives == true || bacon == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +500*total);
+    }
+    else if (olives == true && pep == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +400*total);
+    }
+    else if (pep == true && bacon == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +300*total);
+    }
+    else if (olives == true && bacon == true && pep == true){
+      document.getElementById("enter").innerHTML = "Ksh" +" " + (amount*total +600*total);
+    }
+    else{
+      document.getElementById("enter").innerHTML = "Ksh" +" " + amount*total;
+    }
     
   
-    document.getElementById("enter").innerHTML = "Ksh" +" " + amount*total;
+    // document.getElementById("enter").innerHTML = "Ksh" +" " + amount*total;
   
   }
 
