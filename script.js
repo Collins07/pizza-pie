@@ -284,27 +284,63 @@ $(document).ready(function() {
 
     $("#add").click(function() {
       $("#demo").html("<b>Small Crispy with topping</b>");
-      $("#demos").html("<b>500</b>");
+      $("#demos").html("<b>700</b>");
+    $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add2").click(function() {
       $("#demo").html("<b>Small Crispy without topping</b>");
-      $("#demos").html("<b>700</b>");
+      $("#demos").html("<b>500</b>");
+      $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add3").click(function() {
         $("#demo").html("<b>Small Stuffed with topping</b>");
         $("#demos").html("<b>850</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add4").click(function() {
         $("#demo").html("<b>Small Stuffed without topping</b>");
         $("#demos").html("<b>750</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add5").click(function() {
         $("#demo").html("<b>Small Gutten with topping</b>");
         $("#demos").html("<b>1050</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add6").click(function() {
         $("#demo").html("<b>Small Gutten without topping</b>");
         $("#demos").html("<b>900</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
 })
 
@@ -313,26 +349,62 @@ $(document).ready(function() {
     $("#add7").click(function() {
         $("#demo").html("<b>Medium Crispy with topping</b>");
         $("#demos").html("<b>1200</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add8").click(function() {
         $("#demo").html("<b>Medium Crispy without topping</b>");
         $("#demos").html("<b>1100</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add9").click(function() {
         $("#demo").html("<b>Medium Stuffed with topping</b>");
         $("#demos").html("<b>1400</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add10").click(function() {
         $("#demo").html("<b>Medium Stuffed without topping</b>");
         $("#demos").html("<b>1350</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add11").click(function() {
         $("#demo").html("<b>Medium Gutten with topping</b>");
         $("#demos").html("<b>1600</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add12").click(function() {
         $("#demo").html("<b>Medium Gutten without topping</b>");
         $("#demos").html("<b>1450</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
 })
 
@@ -341,25 +413,61 @@ $(document).ready(function() {
     $("#add13").click(function() {
         $("#demo").html("<b>Large Crispy with topping</b>");
         $("#demos").html("<b>1850</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add14").click(function() {
         $("#demo").html("<b>Large Crispy without topping</b>");
         $("#demos").html("<b>1750</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add15").click(function() {
         $("#demo").html("<b>Large Stuffed with topping</b>");
         $("#demos").html("<b>2000</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add16").click(function() {
         $("#demo").html("<b>Large Stuffed without topping</b>");
         $("#demos").html("<b>1900</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
     $("#add17").click(function() {
         $("#demo").html("<b>Large Gutten with topping</b>");
         $("#demos").html("<b>2500</b>");
+        $("#pep").show();
+    $("#bacon").show();
+    $("#olives").show();
+    $("#pep1").show();
+    $("#bacon1").show();
+    $("#olives1").show();
     })
     $("#add18").click(function() {
         $("#demo").html("<b>Large Gutten without topping</b>");
         $("#demos").html("<b>2200</b>");
+        $("#pep").hide();
+    $("#bacon").hide();
+    $("#olives").hide();
+    $("#pep1").hide();
+    $("#bacon1").hide();
+    $("#olives1").hide();
     })
 })

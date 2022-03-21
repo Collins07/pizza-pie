@@ -233,6 +233,12 @@ li{
 #many{
     width: 150px;
 }
+#pep, #bacon, #olives{
+    display: none;
+}
+#pep1, #bacon1, #olives1{
+    display: none;
+}
 .open-button {
     background-color: green;
     color: white;
